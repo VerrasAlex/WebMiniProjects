@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.link li a{
+    font-size: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+.link li a:link{
+    color: white;
+}
+
+.link li a:visited{
+    color: tomato;
+}
+
+.link li a:hover{
+    color: violet;
+}
+h3{
+    font-size: 125%;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.list li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.5%; 
+}
+
+img{
+    float: right;
+}
+
+#ExternalLink:visited{
+    color: red;
+}

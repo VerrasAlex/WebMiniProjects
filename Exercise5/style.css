@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(26, 26, 26);
+    color: rgb(206, 206, 206);
+    font-family: 'ValkyrieBold';
+}
+
+h2{
+    font-family: 'ValkyrieBold';
+}
+
+.header{
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: minmax(200px, .25fr);
+}
+.headerIR{
+    display: grid;
+    margin-top: 2%;
+    column-gap: 8%;
+    margin-left: 12%;
+    grid-template-columns: minmax(200px, .25fr);
+}
+
+.header div div{
+    margin: 1%;
+}
+
+.headerIR div div{
+    margin: 1%;
+    margin-left: -27%;
+}
+
+.headerIR div ul{
+    margin: 1%;
+    margin-left: -47%;
+}
+
+.header div a{
+    color: rgb(255, 94, 0);
+}
+
+.headerIR div a{
+    color: rgb(255, 94, 0);
+}
+
+.header div a:visited{
+    color: rgb(39, 107, 163);
+}
+
+.headerIR div a:visited{
+    color: rgb(39, 107, 163);
+}
+
+.header div a:hover{
+    color: rgb(218, 61, 22);
+}
+
+.headerIR div a:hover{
+    color: rgb(218, 61, 22);
+}
+
+@font-face{
+    font-family: 'ValkyrieBold';
+    src: url(ValkyrieBold.ttf);
+}
+
+/*Media Queries*/
+@media screen and (min-width: 800px){
+    .header{
+        display: grid;
+        margin-top: 2%;
+        grid-template-columns: minmax(200px, .25fr) .25fr;
+    }
+    .headerIR{
+        display: grid;
+        margin-top: 2%;
+        column-gap: 10%;
+        grid-template-columns: minmax(200px, .25fr).25fr .25fr;
+    }
+    
+    .headerIR div {
+        margin-left: -30%;
+    }   
+
+    .headerIR div div{
+        margin-left: -29%;
+    }   
+
+    .headerIR div ul{
+        margin-right: 30%;
+    }
+
+    #twoImages{
+        display: inline-flex;
+        max-width: 40%;
+        margin-left: 10%;
+    }
+    footer{
+        max-width: 50%;
+        margin-left: 25%;
+    }
+}
